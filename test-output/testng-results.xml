@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51735" started-at="2017-08-18T16:41:50Z" finished-at="2017-08-18T16:42:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51735" started-at="2017-08-18T16:41:50Z" finished-at="2017-08-18T16:42:41Z">
+      <class name="appium.SuiteTruthItemAndroid.TestChangePrimaryIndAndroid">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:appium.SuiteTruthItemAndroid.TestChangePrimaryIndAndroid@5bcab519]" name="checkSuiteSkip" is-config="true" duration-ms="895" started-at="2017-08-18T11:41:49Z" finished-at="2017-08-18T11:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:appium.SuiteTruthItemAndroid.TestChangePrimaryIndAndroid@5bcab519]" name="checkTestSkip" is-config="true" duration-ms="3" started-at="2017-08-18T11:41:50Z" finished-at="2017-08-18T11:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="TestPrimaryRoleAnd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appium.SuiteTruthItemAndroid.TestChangePrimaryIndAndroid@5bcab519]" name="TestPrimaryRoleAnd" duration-ms="46684" started-at="2017-08-18T11:41:50Z" data-provider="getTestData" finished-at="2017-08-18T11:42:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lukeskywalkertest@yopmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[k2partnering]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectProjectAndroidTSB]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[PASS]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPrimaryRoleAnd -->
+        <test-method status="PASS" signature="reportDataSetResult()[pri:0, instance:appium.SuiteTruthItemAndroid.TestChangePrimaryIndAndroid@5bcab519]" name="reportDataSetResult" is-config="true" duration-ms="2813" started-at="2017-08-18T11:42:36Z" finished-at="2017-08-18T11:42:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportDataSetResult -->
+        <test-method status="PASS" signature="reportTestResult()[pri:0, instance:appium.SuiteTruthItemAndroid.TestChangePrimaryIndAndroid@5bcab519]" name="reportTestResult" is-config="true" duration-ms="93" started-at="2017-08-18T11:42:39Z" finished-at="2017-08-18T11:42:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTestResult -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:appium.SuiteTruthItemAndroid.TestChangePrimaryIndAndroid@5bcab519]" name="afterTest" is-config="true" duration-ms="2121" started-at="2017-08-18T11:42:39Z" depends-on-methods="appium.SuiteTruthItemAndroid.TestChangePrimaryIndAndroid.reportTestResult" finished-at="2017-08-18T11:42:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- appium.SuiteTruthItemAndroid.TestChangePrimaryIndAndroid -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

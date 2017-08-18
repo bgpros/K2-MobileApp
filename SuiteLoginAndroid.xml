@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite Transfer">
+
+<test name="Validate Login functionality">
+   <classes>
+      <class name="appium.SuiteLoginAndroid.LoginEmailAndroid"></class>
+   </classes>
+</test>
+
+</suite>
