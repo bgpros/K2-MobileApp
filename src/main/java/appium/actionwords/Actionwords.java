@@ -13,6 +13,7 @@ import java.util.concurrent.TimeUnit;
 import org.apache.log4j.*;
 import appium.base.AppiumDriverBase;
 import io.appium.java_client.MobileBy;
+import io.appium.java_client.TouchAction;
 
 
 
@@ -119,7 +120,29 @@ public void goToProjectDetailIOS (){
 	driver.findElement(MobileBy.AccessibilityId("Allow")).click();
 	
 }
+   
+public void scrollDown (String startElement, String endElement ){
+	
+	APP_LOGS.debug("Starting to find the X and Y for Scroll");
+	TouchAction tAction=new TouchAction(mobDriver);
+	
+	
+	int startX = driver.findElement(MobileBy.xpath(startElement)).getLocation().getX();
+	APP_LOGS.debug("Start X found");
+	int startY = driver.findElement(MobileBy.xpath(startElement)).getLocation().getY();
+	APP_LOGS.debug("Start Y found");
+	int endX = driver.findElement(MobileBy.xpath(endElement)).getLocation().getX();
+	APP_LOGS.debug("End Y found");
+	int endY = driver.findElement(MobileBy.xpath(endElement)).getLocation().getY();
+	APP_LOGS.debug("End X found");
+	System.out.println(startX + " ::::::: " + startY + " ::::::: " + endX +  " ::::::: " +	endY); 
+	
+	
+	//First tap on the screen and swipe it down (Scroll Down)
+	tAction.press(startX,startY).waitAction(1000).moveTo(endX,endY).release().perform(); 
+	
 
+  }
 
 
 }

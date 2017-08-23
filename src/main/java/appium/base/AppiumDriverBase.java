@@ -2,6 +2,8 @@ package appium.base;
 
 import org.testng.annotations.Test;
 
+import io.appium.java_client.MobileDriver;
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
 import appium.util.Xls_reader;
@@ -22,6 +24,7 @@ import org.testng.annotations.AfterTest;
 
 public class AppiumDriverBase {	
 	
+	protected MobileDriver mobDriver;
 	protected WebDriver driver;
 	protected WebDriverWait wait;
 	public static Logger APP_LOGS=null;
@@ -151,8 +154,10 @@ properties.load(Thread.currentThread().getContextClassLoader().getResourceAsStre
 		//ChromeDriver
 		  System.setProperty("webdriver.chrome.driver", "/Users/Brenda/Documents/Brenda K2/chromedriver");
 
-	    // initialize driver object	  
-		  driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), caps);
+	    // initialize driver object	
+		  URL serveraddress = new URL("http://127.0.0.1:4723/wd/hub"); 
+		  //driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), caps);
+		  driver = new AndroidDriver<MobileElement>(serveraddress, caps);
 	    // initialize explicit wait object	  
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		  wait = new WebDriverWait(driver, 30);
