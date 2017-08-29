@@ -6,19 +6,19 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		GV8txyVxM33hS2k3TK/IoYJjF4A=
+		EVrzNXjJMRYNbn+BUGWyAddMD8I=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CpnxVhseRY3eNFvFqBUoFrtHx68=
+		q6/fGqQEhl6GAlw+KycmMd6fj9Q=
 		</data>
 		<key>SalesforceSDKResources.bundle/Info.plist</key>
 		<data>
-		+vrC0NOkiG26+Wi/963OBZZ5anc=
+		XZOgfhrCtMSmz9I7a2YE83QgISk=
 		</data>
 		<key>SalesforceSDKResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		6AGYiy5Nu6iCmnWXhAjgHYbl4gE=
+		qSJY9xDBBzYEt5Ht2RL+4nQcfh8=
 		</data>
 		<key>SalesforceSDKResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>SalesforceSDKResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		yWGAXm4wdBHaByReLD+8P3XYHIk=
+		DF/s9OD6MH0KZDfuNHLfaAu+X/M=
 		</data>
 		<key>SalesforceSDKResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -52,33 +52,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GV8txyVxM33hS2k3TK/IoYJjF4A=
+			EVrzNXjJMRYNbn+BUGWyAddMD8I=
 			</data>
 			<key>hash2</key>
 			<data>
-			1pdK8jbOiRyV8YnotOT3PUZLcgOT93JWEt44vxuJFkU=
+			gcF4jbsPNWDFmjUaAhfhEg+RvuKsqI1S12bnqkPQ8r8=
 			</data>
 		</dict>
 		<key>SalesforceSDKResources.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+vrC0NOkiG26+Wi/963OBZZ5anc=
+			XZOgfhrCtMSmz9I7a2YE83QgISk=
 			</data>
 			<key>hash2</key>
 			<data>
-			I5+edqDmZ3WccCstKHmG0C6/Eh/Xi5Qcg/FBPORGBk4=
+			zHRsc1DPOd4Ga2M7q9ysjAezP0nMbctI01fjvmDScqw=
 			</data>
 		</dict>
 		<key>SalesforceSDKResources.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6AGYiy5Nu6iCmnWXhAjgHYbl4gE=
+			qSJY9xDBBzYEt5Ht2RL+4nQcfh8=
 			</data>
 			<key>hash2</key>
 			<data>
-			gZQXYDoO01/PMNMulz4QR3hqRKvhF/gYqRXcYsjgmRg=
+			/Peegg8wdebuLhlxvMqQCJaoTe+ZjHIj5CdQxWQB/T0=
 			</data>
 		</dict>
 		<key>SalesforceSDKResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -96,11 +96,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yWGAXm4wdBHaByReLD+8P3XYHIk=
+			DF/s9OD6MH0KZDfuNHLfaAu+X/M=
 			</data>
 			<key>hash2</key>
 			<data>
-			gQ+ATDf9vB99Jp3SZmXteOBHo3G7dkl7lAT9MMnfBLc=
+			fnvtKi10eYa+vJa4GVl3OSp1Vfs5hSA6b1CkCsqemM8=
 			</data>
 		</dict>
 		<key>SalesforceSDKResources.bundle/_CodeSignature/CodeResources</key>

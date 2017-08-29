@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="75523" started-at="2017-08-23T03:01:19Z" finished-at="2017-08-23T03:02:35Z">
+  <suite name="Default suite" duration-ms="94876" started-at="2017-08-28T23:03:51Z" finished-at="2017-08-28T23:05:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="75523" started-at="2017-08-23T03:01:19Z" finished-at="2017-08-23T03:02:35Z">
-      <class name="appium.SuiteTruthItemAndroid.TestAddMoreTechAndroid">
-        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:appium.SuiteTruthItemAndroid.TestAddMoreTechAndroid@5bcab519]" name="checkSuiteSkip" is-config="true" duration-ms="957" started-at="2017-08-22T22:01:18Z" finished-at="2017-08-22T22:01:19Z">
+    <test name="Default test" duration-ms="94876" started-at="2017-08-28T23:03:51Z" finished-at="2017-08-28T23:05:26Z">
+      <class name="appium.SuiteTruthItemIOS.TestAddMoreRoleIOS">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:appium.SuiteTruthItemIOS.TestAddMoreRoleIOS@5bcab519]" name="checkSuiteSkip" is-config="true" duration-ms="1047" started-at="2017-08-28T18:03:50Z" finished-at="2017-08-28T18:03:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSuiteSkip -->
-        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:appium.SuiteTruthItemAndroid.TestAddMoreTechAndroid@5bcab519]" name="checkTestSkip" is-config="true" duration-ms="6" started-at="2017-08-22T22:01:19Z" finished-at="2017-08-22T22:01:19Z">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:appium.SuiteTruthItemIOS.TestAddMoreRoleIOS@5bcab519]" name="checkTestSkip" is-config="true" duration-ms="6" started-at="2017-08-28T18:03:51Z" finished-at="2017-08-28T18:03:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTestSkip -->
-        <test-method status="PASS" signature="TestPrimaryRoleAnd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appium.SuiteTruthItemAndroid.TestAddMoreTechAndroid@5bcab519]" name="TestPrimaryRoleAnd" duration-ms="70049" started-at="2017-08-22T22:01:19Z" data-provider="getTestData" finished-at="2017-08-22T22:02:29Z">
+        <test-method status="PASS" signature="TestPrimaryRoleAnd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appium.SuiteTruthItemIOS.TestAddMoreRoleIOS@5bcab519]" name="TestPrimaryRoleAnd" duration-ms="90666" started-at="2017-08-28T18:03:51Z" data-provider="getTestData" finished-at="2017-08-28T18:05:22Z">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[selectProjectAndroidTSB]]>
+                <![CDATA[selectProjectIOSTSB]]>
               </value>
             </param>
             <param index="4">
@@ -44,31 +44,31 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[FAIL]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Social & Enterprise Mobility tag wasn't found]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestPrimaryRoleAnd -->
-        <test-method status="PASS" signature="reportDataSetResult()[pri:0, instance:appium.SuiteTruthItemAndroid.TestAddMoreTechAndroid@5bcab519]" name="reportDataSetResult" is-config="true" duration-ms="3001" started-at="2017-08-22T22:02:29Z" finished-at="2017-08-22T22:02:32Z">
+        <test-method status="PASS" signature="reportDataSetResult()[pri:0, instance:appium.SuiteTruthItemIOS.TestAddMoreRoleIOS@5bcab519]" name="reportDataSetResult" is-config="true" duration-ms="3549" started-at="2017-08-28T18:05:22Z" finished-at="2017-08-28T18:05:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportDataSetResult -->
-        <test-method status="PASS" signature="reportTestResult()[pri:0, instance:appium.SuiteTruthItemAndroid.TestAddMoreTechAndroid@5bcab519]" name="reportTestResult" is-config="true" duration-ms="147" started-at="2017-08-22T22:02:32Z" finished-at="2017-08-22T22:02:33Z">
+        <test-method status="PASS" signature="reportTestResult()[pri:0, instance:appium.SuiteTruthItemIOS.TestAddMoreRoleIOS@5bcab519]" name="reportTestResult" is-config="true" duration-ms="158" started-at="2017-08-28T18:05:25Z" finished-at="2017-08-28T18:05:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTestResult -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:appium.SuiteTruthItemAndroid.TestAddMoreTechAndroid@5bcab519]" name="afterTest" is-config="true" duration-ms="2299" started-at="2017-08-22T22:02:33Z" depends-on-methods="appium.SuiteTruthItemAndroid.TestAddMoreTechAndroid.reportTestResult" finished-at="2017-08-22T22:02:35Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:appium.SuiteTruthItemIOS.TestAddMoreRoleIOS@5bcab519]" name="afterTest" is-config="true" duration-ms="472" started-at="2017-08-28T18:05:25Z" depends-on-methods="appium.SuiteTruthItemIOS.TestAddMoreRoleIOS.reportTestResult" finished-at="2017-08-28T18:05:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- appium.SuiteTruthItemAndroid.TestAddMoreTechAndroid -->
+      </class> <!-- appium.SuiteTruthItemIOS.TestAddMoreRoleIOS -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

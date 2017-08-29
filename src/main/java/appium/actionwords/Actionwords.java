@@ -113,11 +113,28 @@ public void goToProjectDetailAndroid (String projectName){
 	
 }
 
-public void goToProjectDetailIOS (){
+public void goToProjectDetailIOS (String projectName){
 	
+	//Allow Access button
+    wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(MobileBy.AccessibilityId(" Allow ")));
+	driver.findElement(MobileBy.AccessibilityId(" Allow ")).click();
+	APP_LOGS.debug("Allow was found and clicked");
 	
-	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(MobileBy.xpath(OR.getProperty("Allow"))));
-	driver.findElement(MobileBy.AccessibilityId("Allow")).click();
+	//Go to Projects 
+	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(MobileBy.AccessibilityId("Projects")));
+	driver.findElement(MobileBy.AccessibilityId("Projects")).click();
+	APP_LOGS.debug("Project button was found and clicked");
+	
+	//Select a Project
+	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(MobileBy.xpath(OR.getProperty(projectName))));
+	driver.findElement(MobileBy.xpath(OR.getProperty(projectName))).click();
+	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	APP_LOGS.debug("Project was found and clicked");
+	
+	//Go to Detail
+	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(MobileBy.xpath(OR.getProperty("projectDetailButton"))));
+	driver.findElement(MobileBy.xpath(OR.getProperty("projectDetailButton"))).click();
+	APP_LOGS.debug("Detail was found and clicked");
 	
 }
    

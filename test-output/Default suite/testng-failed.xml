@@ -3,16 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="appium.SuiteTruthItemAndroid.TestAddMoreTechAndroid">
+      <class name="appium.SuiteTruthItemIOS.TestAddMoreIndustryIOS">
         <methods>
-          <include name="TestPrimaryRoleAnd" invocation-numbers="0"/>
-          <include name="checkTestSkip"/>
           <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+          <include name="TestPrimaryRoleAnd" invocation-numbers="0"/>
           <include name="afterTest"/>
           <include name="checkSuiteSkip"/>
-          <include name="reportDataSetResult"/>
+          <include name="checkTestSkip"/>
         </methods>
-      </class> <!-- appium.SuiteTruthItemAndroid.TestAddMoreTechAndroid -->
+      </class> <!-- appium.SuiteTruthItemIOS.TestAddMoreIndustryIOS -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
